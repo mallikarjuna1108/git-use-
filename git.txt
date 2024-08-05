@@ -1,0 +1,13 @@
+msis@msis:~/git_use$ sudo git remote add origin "https://github.com/mallikarjuna1108/git-use-.git"
+msis@msis:~/git_use$ ls
+msis@msis:~/git_use$ sudo git pull origin main
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 864 bytes | 864.00 KiB/s, done.
+From https://github.com/mallikarjuna1108/git-use-
+ * branch            main       -> FETCH_HEAD
+ * [new branch]      main       -> origin/main
+msis@msis:~/git_use$ ls
+README.md
+msis@msis:~/git_use$ sudo git remote -v
